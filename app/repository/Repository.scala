@@ -13,5 +13,6 @@ trait Repository {
   def read(id: String): Person
 
   def readAll: List[Person]
-
 }
+
+
