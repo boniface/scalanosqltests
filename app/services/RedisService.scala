@@ -1,7 +1,7 @@
 package services
 import domain.Result
 
-class CassandraService extends Service {
+class RedisService extends Service{
   override def create(number: Long): Result = ???
 
   override def read: Result = ???
