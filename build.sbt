@@ -20,7 +20,7 @@ val PlayFrameWorkVersion = "2.6.17"
 
 
 maintainer := "Waldon Hendricks "
-packageSummary in Linux := "CPUT "
+packageSummary in Linux := "CPUT"
 packageDescription := "RESEARCH API "
 
 dockerCommands := Seq(

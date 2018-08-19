@@ -1,5 +1,5 @@
 package repository.cassandra
 
-class Cassandra {
+class CassandraRepository {
 
 }
