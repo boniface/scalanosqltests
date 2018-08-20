@@ -51,6 +51,9 @@ libraryDependencies += guice
 libraryDependencies += filters
 libraryDependencies += "org.scalatestplus.play" % "scalatestplus-play_2.12" % "3.1.2" % "test"
 libraryDependencies += "org.scalactic" % "scalactic_2.12" % "3.0.5"
+// https://mvnrepository.com/artifact/com.google.code.gson/gson
+libraryDependencies += "com.google.code.gson" % "gson" % "2.8.5"
+
 
 
 
