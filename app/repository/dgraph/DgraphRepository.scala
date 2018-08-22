@@ -21,8 +21,8 @@ class DgraphRepository extends Repository {
   val stubs: util.List[DgraphGrpc.DgraphBlockingStub] = List[DgraphGrpc.DgraphBlockingStub](stub).asJava
   val dgraphClient: DgraphClient = new DgraphClient(stubs)
 
-  val schema = " id:   string   @index(exact) .\n" +
-    " name: string   @index(int)  .\n"
+  val schema = " id: string @index(exact) .\n" +
+              " name: string   @index(int)  .\n"
 
   val op = Operation.newBuilder().setSchema(schema).build()
   dgraphClient.alter(op)
