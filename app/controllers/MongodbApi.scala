@@ -1,5 +1,5 @@
 package controllers
 
-class RedisController {
+class MongodbApi {
 
 }
