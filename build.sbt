@@ -75,6 +75,8 @@ libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "2.4.0"
 // https://mvnrepository.com/artifact/io.dgraph/dgraph4j
 libraryDependencies += "io.dgraph" % "dgraph4j" % "1.3.0"
 
+
+
 // Redis For Key Pair
 
 // https://mvnrepository.com/artifact/net.debasishg/redisclient
